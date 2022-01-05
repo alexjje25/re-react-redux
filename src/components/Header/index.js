@@ -1,23 +1,24 @@
-import React from 'react'
-import {FaHome, FaSignInAlt, FaUserAlt} from 'react-icons/fa'
+import React from 'react';
+import {FaHome, FaSignInAlt, FaUserAlt} from 'react-icons/fa';
+import { Link } from 'react-router-dom'; 
 import { Nav } from './styled'
 
 export default function index() {
     return (
         <Nav>
-            <a href="">
+            <Link to="/">
                 <FaHome size={24} />
-                </a>
+                </Link>
              
-                <a href="">
+                <Link to="/Page404">
                 <FaUserAlt size={22} />
-                </a>
+                </Link>
                 
-                <a href="">
+                <Link to="/dsada">
                 <FaSignInAlt size={24} />
-                </a>
+                </Link>
 
                 
         </Nav>
-    )
+    );
 }
