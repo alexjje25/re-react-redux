@@ -1,4 +1,6 @@
 import styled, { createGlobalStyle } from 'styled-components';
+import * as colors from '../config/colors';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default createGlobalStyle` 
   * {
@@ -34,6 +36,11 @@ export default createGlobalStyle`
     ul {
         list-style: none;
     }
+    body .Toastify .Toastifu_toast-container .Toastify__toast--sucess{
+        background: ${colors.sucessColor};
+    }
+
+
 `;
     export const Container = styled.section`
       max-width: 360px;
