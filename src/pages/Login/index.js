@@ -1,20 +1,23 @@
 import React from 'react'
-import { useDispatch } from 'react-redux';
 import { Container } from '../../styles/GlobalStyles';
 import { Title, Paragrafo } from './styled';
-sdadad
+import axios from '../../services/axios';
+import * as exampleAction from '../../storemodules/example/actions';
+
 export default function Login() {
-    function handleClick(e){
-        e.preventDefault();
-        console.log('Botao clicado');
-    }
+    React.useEffect(() => {
+        async function getData() {
+            const response = await axios.get()
+        }
+    })
     return (
+        
         <Container>
         <Title>
             TELA DE LOGIN
         </Title>
         <Paragrafo>Lorem BE ol grto hjua jhhusa </Paragrafo>
-        <button type='button' onClick={handleClick}>Cadastrar</button>
+        <button type='button'>Cadastrar</button>
         </Container>
     );
 }
