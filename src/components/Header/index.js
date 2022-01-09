@@ -10,11 +10,11 @@ export default function index() {
                 <FaHome size={24} />
                 </Link>
              
-                <Link to="/Page404">
+                <Link to="/Register">
                 <FaUserAlt size={22} />
                 </Link>
                 
-                <Link to="/dsada">
+                <Link to="/Login">
                 <FaSignInAlt size={24} />
                 </Link>
 

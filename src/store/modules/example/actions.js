@@ -1,4 +1,4 @@
-import * as types from '../types';
+import * as types from './types';
 
 export function clicaBotaoRequest() {
     return {
@@ -9,7 +9,7 @@ export function clicaBotaoRequest() {
 
 export function clicaBotaoSucess() {
         return{
-            type: types.BOTAO_CLICADO_SUCESS,
+            type: types.BOTAO_CLICADO_SUCCESS,
         };
     }
 
