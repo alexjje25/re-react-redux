@@ -11,12 +11,14 @@ import store, {persistor} from './store'
 import GlobalStyles from './styles/GlobalStyles';
 import Header from './components/Header';
 
+
 function App() {
   return ( 
     <Provider store={store}>
       <PersistGate persistor={persistor}>
     <Router history={history}>
     <Header />
+   
     <Routes />
     <GlobalStyles/>
     <ToastContainer autoClosed={3000} className="toast-container"/>

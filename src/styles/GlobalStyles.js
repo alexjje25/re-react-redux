@@ -13,7 +13,7 @@ export default createGlobalStyle`
     
     body {
         font-familly: sans-serif;
-        background: #000;
+        background: #c4c4c4;
         }
     
     html, body, root# {
@@ -43,11 +43,11 @@ export default createGlobalStyle`
 
 `;
     export const Container = styled.section`
-      max-width: 470px;
-      background: #fff ;
-      margin: 30px auto;
+      max-width: 670px;
+      background: #1223BC;
+      margin: 80px auto;
       padding: 30px;
       border-radius: 4px;
       box-shadow: 0 0 10px rgba(3, 3, 3, 3);
 
-    `
+    `;
