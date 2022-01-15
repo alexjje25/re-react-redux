@@ -9,7 +9,7 @@
 <p> Para conseguir rodar o projeto na sua maquina é so voce clonar o repositirio pelo seu git clone, ou se preferir você pode baixar o projeto</p>
 <p> Quando o projeto ja estiver aberto em alguma IDE(a escolha da IDE é da sua preferencia)</p>
 <p> Voce executa o comando <strong>"npm install"</strong> ou <strong>"yarn add install"</strong>, esse comando serve para o projeto funciona na sua maquina local</p>
-<p> Apos finalizar o comando acima, você executa "npm start" ou "yarn start" (fica ao seu criterio de usabilidade).
+<p> Apos finalizar o comando acima, você executa <strong>"npm start" ou "yarn start"</strong> (fica ao seu criterio de usabilidade).
  
  <strong> AS tecnologias usadas para fazer essa template: </strong>
   
