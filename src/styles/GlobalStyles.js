@@ -43,11 +43,12 @@ export default createGlobalStyle`
 
 `;
     export const Container = styled.section`
-      max-width: 670px;
+      max-width: 770px;
       background: #1223BC;
-      margin: 80px auto;
+      margin: 90px auto;
       padding: 30px;
       border-radius: 4px;
       box-shadow: 0 0 10px rgba(3, 3, 3, 3);
+      height: 480px;
 
     `;

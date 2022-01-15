@@ -1,27 +1,51 @@
 import styled from 'styled-components';
 
 
-export const Form = styled.form`
-      margin-top: 20px;
+export const Form = styled.div`
+      margin-top: 125px;
       display: flex;
       flex-direction: column;
+      width: 40%;
+      margin-left: 25vw;
 
      input{
-      width: 295px;
-  height: 30px;
-  border: 1px solid #dbdfea;
+        background-color: transparent;
+        color: #eeeeee;
+        outline: none;
+        outline-style: none;
+        outline-offset: 0;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: solid #eeeeee 2px;
+        
+        margin-bottom: 60px;
 
-  border-top-color: white;
-  border-left-color: white;
-  border-right-color: white
+        &: focus{
+            border-bottom: 1px solid red;
+        }
+
+        ::-webkit-input-placeholder {
+        color: #eeeeee;
+        position: sticky; top: 10px;
+           
+        
+
+        
+        }
+    
      }
+     
+
+     
 }
 `;
+
 export const ProfilePicture = styled.div`
    img { 
     max-width:250px;
-    margin-top: -105px;
-    margin-left: -28px;
+    margin-top: -310px;
+    margin-left: -11px;
     }
     
   

@@ -1,5 +1,6 @@
 import React from 'react'
-import { Form, ProfilePicture } from './styled';
+import { ProfilePicture } from './styled';
+import { Form } from './styled';
 import  Cel  from '../../assets/cel.png';
 import { Container } from '../../styles/GlobalStyles';
 
@@ -15,20 +16,20 @@ export default function Login() {
               type="text"
               value={email}
               onChange={e => setEmail (e.target.value)}
-              placeholder='Seu Email'
+              placeholder='User name:'
               />
               <input
               type="password"
               value={password}
               onChange={e => setpassword (e.target.value)}
-              placeholder='Sua se4nh'
+              placeholder='Password:'
               />
-
-            <ProfilePicture>
-            <img src={Cel} alt=""/> 
-            </ProfilePicture>
-            <h1>Login ss</h1>
         </Form>
+
+        <ProfilePicture>
+            <img src={Cel} alt="img"/> 
+        </ProfilePicture>
+     
         </Container>
     );
 }
