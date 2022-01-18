@@ -6,7 +6,7 @@ export default function Aluno() {
     return (
         
         <Container>
-        <h1>Login</h1>
+        <h1>jj</h1>
         </Container>
     );
 }

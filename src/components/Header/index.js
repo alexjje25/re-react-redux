@@ -10,7 +10,7 @@ export default function index() {
                 <FaHome size={24} />
                 </Link>
              
-                <Link to="/Register">
+                <Link to="/Register/">
                 <FaUserAlt size={22} />
                 </Link>
                 

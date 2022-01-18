@@ -9,9 +9,15 @@ export default function Login() {
     const [email, setEmail] = React.useState('');
     const [password, setpassword] = React.useState('');
 
+    const handleSubmit = e => {
+        e.preventDefault();
+        console.log(email);
+    };
+
     return (
         <Container>
-        <Form>
+        <h1> login</h1>
+        <Form onSubmit={handleSubmit}>
             <input
               type="text"
               value={email}

@@ -1,7 +1,13 @@
 import styled from 'styled-components';
 
 
-export const Paragrafo = styled.p`
+export const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+
+  label {
+      display: flex;
+  }
  
 `;
 
